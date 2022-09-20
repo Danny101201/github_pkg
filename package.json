@@ -1,5 +1,5 @@
 {
-  "name": "@danny/github_pkg",
+  "name": "@danny101201/github_pkg",
   "version": "0.1.1",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -7,6 +7,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danny101201/github_pkg"
+  },
   "scripts": {
     "dev": "next dev",
     "start": "next start",
