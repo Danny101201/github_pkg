@@ -1,12 +1,12 @@
 {
   "name": "@danny/github_pkg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "dist/cjs/index.js",
-    "module": "dist/esm/index.js",
-    "files": [
-        "dist"
-    ],
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "next dev",
     "start": "next start",
@@ -17,7 +17,7 @@
     "prepublish": "npm run build"
   },
   "publishConfig": {
-   "@danny:registry": "https://npm.pkg.github.com"
+    "@danny:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "next": "12.3.1",
