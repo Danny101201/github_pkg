@@ -16,6 +16,9 @@
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
     "prepublish": "npm run build"
   },
+  "publishConfig": {
+   "@danny:registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "next": "12.3.1",
     "react": "18.2.0",
