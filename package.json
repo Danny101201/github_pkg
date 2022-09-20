@@ -1,5 +1,5 @@
 {
-  "name": "github_pkg",
+  "name": "@danny/github_pkg",
   "version": "0.1.0",
   "private": true,
   "main": "dist/cjs/index.js",
