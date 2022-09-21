@@ -1,6 +1,6 @@
 {
   "name": "@danny101201/github_pkg",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "private": false,
@@ -17,7 +17,8 @@
     "lint": "next lint",
     "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
+    "prepublish": "npm run build"
   },
   "publishConfig": {
     "@danny101201:registry": "https://npm.pkg.github.com"
