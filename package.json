@@ -17,8 +17,7 @@
     "lint": "next lint",
     "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
-    "prepublish": "npm run build"
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
   "publishConfig": {
     "@danny101201:registry": "https://npm.pkg.github.com"
