@@ -21,7 +21,7 @@
     "prepublish": "npm run build"
   },
   "publishConfig": {
-    "@danny:registry": "https://npm.pkg.github.com"
+    "@danny101201:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "next": "12.3.1",
